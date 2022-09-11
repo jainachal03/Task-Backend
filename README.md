@@ -61,7 +61,7 @@ $ npm run start:prod
 
 # Some Major Shortcomings:
 # There is no database to store the user
-# No use of JWT to handle sessions. This is important , since otherwise a user might keep clicking on the button, resulting in creation of several repositories. THOUGH It won't happen BECASE, Github does not allow creation of repositories with a same name.
+# No use of JWT to keep track of logged in user. This is important , since otherwise a user might keep clicking on the button, resulting in creation of several repositories. THOUGH It won't happen BECAUSE, Github does not allow creation of repositories with a same name.
 ```
 
 ## Support
