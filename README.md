@@ -53,7 +53,7 @@ $ npm run start:prod
 # Now go to localhost:3000 on your browser
 # Clikc on LOGIN USING GITHUB
 # It will ask for you to authenticate 
-# Then there will be a window asking for your permission, you would also be able to see that Again App would be asking for access
+# Then there will be a window asking for your permission, you would also be able to see that AgainApp would be asking for access
 # Click on Yes
 # After you Click on Yes, you will redirected to a black page
 # You can now go your github account, you would be able to see that a new repository with the name New Repository with some files has been created. 
