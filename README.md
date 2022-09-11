@@ -45,17 +45,23 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+# To run the code just do npm run start:dev
 
-```bash
-# unit tests
-$ npm run test
+# Some important things :
+# First start the front end repository. Ensure that the local server is running on localhost:3000 ( port 3000 is necessary)
+# Then start the backend server by doing npm run start:dev
+# Now go to localhost:3000 on your browser
+# Clikc on LOGIN USING GITHUB
+# It will ask for you to authenticate 
+# Then there will be a window asking for your permission, you would also be able to see that Again App would be asking for access
+# Click on Yes
+# After you Click on Yes, you will redirected to a black page
+# You can now go your github account, you would be able to see that a new repository with the name New Repository with some files has been created. 
+# Remember to revoke the permissions once you have build this. VERY IMPORTANT!!
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# Some Major Shortcomings:
+# There is no database to store the user
+# No use of JWT to handle sessions. This is important , since otherwise a user might keep clicking on the button, resulting in creation of several repositories. THOUGH It won't happen BECASE, Github does not allow creation of repositories with a same name.
 ```
 
 ## Support
